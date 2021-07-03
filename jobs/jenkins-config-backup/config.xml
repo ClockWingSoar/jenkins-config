@@ -16,7 +16,7 @@
       <command>#!/bin/bash -xev
 # Jenkins Configuraitons Directory
 cd $JENKINS_HOME 
-git init
+#git init
 
 # Add general configurations, job configurations, and user content
 git add -- *.xml jobs/*/*.xml userContent/* 
@@ -39,7 +39,7 @@ fi
 git config user.email &quot;409876938@qq.com&quot;
 git config user.name &quot;clockWingSoar&quot;
 git commit -m &quot;Automated Jenkins commit&quot;
-git remote add origin git@github.com:ClockWingSoar/jenkins-config.git
+#git remote add origin git@github.com:ClockWingSoar/jenkins-config.git
 
 
 git push -q -u origin master</command>
